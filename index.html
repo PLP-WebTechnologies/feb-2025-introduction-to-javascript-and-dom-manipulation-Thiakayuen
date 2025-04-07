@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript DOM Manipulation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to My Page</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="dynamic-text">This text will change when you click the button.</p>
+      <button onclick="changeText()">Change Text</button>
+    </section>
+
+    <section>
+      <p id="style-text">Watch me change color!</p>
+      <button onclick="changeStyle()">Change Color</button>
+    </section>
+
+    <section>
+      <div id="container">
+      </div>
+      <button onclick="toggleElement()">Add/Remove Element</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Thiak Ayuen</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
